@@ -1,0 +1,6 @@
+voice_pub
+/home/song/iarc_ws/devel/.private/voice_pub/cmake.lock /home/song/iarc_ws/devel/./cmake.lock
+/home/song/iarc_ws/devel/.private/voice_pub/lib/voice_pub/voice_publish /home/song/iarc_ws/devel/lib/voice_pub/voice_publish
+/home/song/iarc_ws/devel/.private/voice_pub/lib/pkgconfig/voice_pub.pc /home/song/iarc_ws/devel/lib/pkgconfig/voice_pub.pc
+/home/song/iarc_ws/devel/.private/voice_pub/share/voice_pub/cmake/voice_pubConfig.cmake /home/song/iarc_ws/devel/share/voice_pub/cmake/voice_pubConfig.cmake
+/home/song/iarc_ws/devel/.private/voice_pub/share/voice_pub/cmake/voice_pubConfig-version.cmake /home/song/iarc_ws/devel/share/voice_pub/cmake/voice_pubConfig-version.cmake

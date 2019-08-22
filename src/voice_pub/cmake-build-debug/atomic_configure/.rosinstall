@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/song/iarc_ws/src/voice_pub/cmake-build-debug/devel/setup.sh

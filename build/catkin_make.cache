@@ -1,0 +1,2 @@
+voice_pub
+-DCATKIN_DEVEL_PREFIX=/home/song/iarc_ws/devel -DCMAKE_INSTALL_PREFIX=/home/song/iarc_ws/install -G Unix Makefiles

@@ -1,0 +1,8 @@
+prefix=/home/song/iarc_ws/devel
+
+Name: voice_pub
+Description: Description of voice_pub
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/song/iarc_ws/devel/lib 
+Requires: 
