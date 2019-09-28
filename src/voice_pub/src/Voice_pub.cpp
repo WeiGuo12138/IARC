@@ -30,6 +30,9 @@ int main(int argc, char** argv)
     while (ros::ok())
     {
         voice_ros_driver.publishData();
+        //ros::Publisher
+ //       voice_ros_driver..publish(msg_mode);
+//        ROS_INFO("ros::ok");
         loop_rate.sleep();
     }
 

@@ -100,7 +100,7 @@ VoiceRosDriver::~VoiceRosDriver()
 void VoiceRosDriver::publishData()
 {
     this->que_voice_data_ = this->voice_serial_hardware->readData();
-//    ROS_INFO("enter publishData");
+    ROS_INFO("enter publishData");
     if (this->que_voice_data_.size() == 1 || this->que_voice_data_.size() == 2)
     {
         while (!(this->que_voice_data_.empty()))
@@ -111,4 +111,14 @@ void VoiceRosDriver::publishData()
             this->que_voice_data_.pop();
         }
     }
+
+//     this->msg_mode.data=this->que_voice_data_.front().mode;
+ //    this->mode_pub.publish(this->msg_mode);
+//     ROS_INFO("Command : %d",this->msg_mode.data);
 }
+//
+//void VoiceRosDriver::readData()
+//{
+//    this->que_voice_data_=this->voice_serial_hardware->readData();
+//    ROS_INFO("enter readData");
+//}

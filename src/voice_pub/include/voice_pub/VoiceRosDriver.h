@@ -27,7 +27,7 @@ namespace vwpp
         VoiceRosDriver();
 
         virtual ~VoiceRosDriver();
-
+//        void readData();
         void publishData();
 
     private:

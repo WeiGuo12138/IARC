@@ -4,6 +4,7 @@
     <generated>
       <config projectName="voice_pub" targetName="run_tests" />
       <config projectName="voice_pub" targetName="gmock" />
+      <config projectName="voice_pub" targetName="rosgraph_msgs_generate_messages_py" />
       <config projectName="voice_pub" targetName="roscpp_generate_messages_lisp" />
       <config projectName="voice_pub" targetName="std_msgs_generate_messages_eus" />
       <config projectName="voice_pub" targetName="geometry_msgs_generate_messages_py" />
@@ -21,9 +22,8 @@
       <config projectName="voice_pub" targetName="std_msgs_generate_messages_lisp" />
       <config projectName="voice_pub" targetName="std_msgs_generate_messages_nodejs" />
       <config projectName="voice_pub" targetName="clean_test_results" />
-      <config projectName="voice_pub" targetName="rosgraph_msgs_generate_messages_py" />
-      <config projectName="voice_pub" targetName="roscpp_generate_messages_py" />
       <config projectName="voice_pub" targetName="rosgraph_msgs_generate_messages_lisp" />
+      <config projectName="voice_pub" targetName="roscpp_generate_messages_py" />
       <config projectName="voice_pub" targetName="doxygen" />
       <config projectName="voice_pub" targetName="roscpp_generate_messages_cpp" />
       <config projectName="voice_pub" targetName="geometry_msgs_generate_messages_nodejs" />
@@ -45,7 +45,17 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7aa4ac63-2c87-4885-a396-456a80144f0f" name="Default Changelist" comment="" />
+    <list default="true" id="7aa4ac63-2c87-4885-a396-456a80144f0f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../build/voice_pub/CMakeFiles/voice_publish.dir/src/VoiceRosDriver.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../build/voice_pub/CMakeFiles/voice_publish.dir/src/VoiceRosDriver.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../build/voice_pub/CMakeFiles/voice_publish.dir/src/VoiceSerialHardware.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../build/voice_pub/CMakeFiles/voice_publish.dir/src/VoiceSerialHardware.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../build/voice_pub/CMakeFiles/voice_publish.dir/src/Voice_pub.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../build/voice_pub/CMakeFiles/voice_publish.dir/src/Voice_pub.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../devel/lib/voice_pub/voice_publish" beforeDir="false" afterPath="$PROJECT_DIR$/../../devel/lib/voice_pub/voice_publish" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VoiceRosDriver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/VoiceRosDriver.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VoiceSerialHardware.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/VoiceSerialHardware.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Voice_pub.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Voice_pub.cpp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,11 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/voice_pub/VoiceRosDriver.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="924">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
-              <folding>
-                <element signature="e#111#128#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="378">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -74,8 +81,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/VoiceSerialHardware.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1764">
-              <caret line="84" column="36" selection-start-line="84" selection-start-column="36" selection-end-line="84" selection-end-column="36" />
+            <state relative-caret-position="1218">
+              <caret line="58" column="46" selection-start-line="58" selection-start-column="46" selection-end-line="58" selection-end-column="46" />
               <folding>
                 <element signature="e#38#56#0" expanded="true" />
               </folding>
@@ -84,22 +91,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/voice_pub/VoiceSerialHardware.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1428">
-              <caret line="68" column="18" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
-              <folding>
-                <element signature="e#119#137#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Voice_pub.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+            <state relative-caret-position="651">
+              <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -107,20 +102,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/VoiceRosDriver.cpp">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///opt/ros/kinetic/include/ros/publisher.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="111" column="8" selection-start-line="111" selection-start-column="8" selection-end-line="111" selection-end-column="8" />
+            <state relative-caret-position="1029">
+              <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///opt/ros/kinetic/include/rosconsole/macros_generated.h">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/VoiceRosDriver.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2289">
-              <caret line="109" selection-start-line="109" selection-end-line="109" />
+            <state relative-caret-position="2268">
+              <caret line="108" column="50" selection-start-line="108" selection-start-column="50" selection-end-line="108" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -153,6 +148,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/include/boost/thread/lock_types.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2520">
+              <caret line="120" column="13" selection-start-line="120" selection-start-column="13" selection-end-line="120" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/utils.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="546">
@@ -164,22 +168,22 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/BoostSerialCommunicator.cpp" />
         <option value="$PROJECT_DIR$/include/voice_pub/BoostSerialCommunicator.h" />
         <option value="$PROJECT_DIR$/src/utils.cpp" />
         <option value="$PROJECT_DIR$/include/voice_pub/utils.h" />
-        <option value="$PROJECT_DIR$/src/Voice_pub.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/package.xml" />
         <option value="$PROJECT_DIR$/include/voice_pub/VoiceSerialHardware.h" />
-        <option value="$PROJECT_DIR$/include/voice_pub/VoiceRosDriver.h" />
         <option value="$PROJECT_DIR$/src/VoiceSerialHardware.cpp" />
+        <option value="$PROJECT_DIR$/src/Voice_pub.cpp" />
+        <option value="$PROJECT_DIR$/src/BoostSerialCommunicator.cpp" />
         <option value="$PROJECT_DIR$/src/VoiceRosDriver.cpp" />
+        <option value="$PROJECT_DIR$/include/voice_pub/VoiceRosDriver.h" />
       </list>
     </option>
   </component>
@@ -492,16 +496,19 @@
       <workItem from="1566462623077" duration="2046000" />
       <workItem from="1566465197168" duration="1890000" />
       <workItem from="1566469563565" duration="406000" />
+      <workItem from="1566472117264" duration="471000" />
+      <workItem from="1566477925900" duration="5125000" />
+      <workItem from="1567394857118" duration="16000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22544000" />
+    <option name="totallyTimeSpent" value="28156000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26923078" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19284189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -512,8 +519,8 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49893162" visible="true" weight="0.3286334" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50106835" side_tool="true" weight="0.32900432" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49732906" visible="true" weight="0.32683983" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50267094" side_tool="true" visible="true" weight="0.32683983" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="CMake" order="11" weight="0.329718" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.329718" />
@@ -562,26 +569,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/voice_pub/VoiceRosDriver.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-          <folding>
-            <element signature="e#111#128#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/VoiceSerialHardware.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1764">
-          <caret line="84" column="36" selection-start-line="84" selection-start-column="36" selection-end-line="84" selection-end-column="36" />
-          <folding>
-            <element signature="e#38#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/voice_pub/VoiceSerialHardware.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1428">
@@ -592,10 +579,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///opt/ros/kinetic/include/ros/message_traits.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5523">
+          <caret line="263" selection-start-line="263" selection-end-line="263" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file:///opt/ros/kinetic/include/rosconsole/macros_generated.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2289">
           <caret line="109" selection-start-line="109" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/voice_pub/VoiceRosDriver.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VoiceSerialHardware.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1218">
+          <caret line="58" column="46" selection-start-line="58" selection-start-column="46" selection-end-line="58" selection-end-column="46" />
+          <folding>
+            <element signature="e#38#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Voice_pub.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///opt/ros/kinetic/include/ros/publisher.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1029">
+          <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -620,6 +648,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///usr/include/boost/thread/lock_types.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2520">
+          <caret line="120" column="13" selection-start-line="120" selection-start-column="13" selection-end-line="120" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/utils.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
@@ -627,20 +662,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Voice_pub.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/VoiceRosDriver.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="111" column="8" selection-start-line="111" selection-start-column="8" selection-end-line="111" selection-end-column="8" />
+        <state relative-caret-position="2268">
+          <caret line="108" column="50" selection-start-line="108" selection-start-column="50" selection-end-line="108" selection-end-column="50" />
         </state>
       </provider>
     </entry>

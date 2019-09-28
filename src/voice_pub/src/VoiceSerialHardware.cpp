@@ -67,7 +67,7 @@ std::queue<VoiceSerialHardware::VoiceData> VoiceSerialHardware::readData()
     }
     //ROS_INFO("readData");
 
-//    std::cout << "\033[32m" << "readData...";
+    std::cout << "\033[32m" << "readData...\n";
     const int msg_buf_length = 2*(this->msg_length);
     for (int header_index = 0; header_index < (msg_buf_length - 1); ++header_index)
     {
